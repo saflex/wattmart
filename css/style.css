@@ -76,17 +76,13 @@ li {
 .tab-content>.tab-pane,
 .pill-content>.pill-pane {
     display: block;
-    /* undo display:none          */
     height: 0;
-    /* height:0 is also invisible */
     overflow: hidden;
-    /* no-overflow                */
 }
 
 .tab-content>.active,
 .pill-content>.active {
     height: auto;
-    /* let the content decide it  */
 }
 
 /* bootstrap hack end */
@@ -488,13 +484,13 @@ li.last-after:hover:before {
 }
 
 .menu-area-ul li:hover .no-show-menu {
-    -webkit-transition: .4s ease-out;
+    -webkit-transition: .0s ease-out;
     -webkit-transition-delay: 0.5s;
-    -o-transition: .4s ease-out;
+    -o-transition: .0s ease-out;
     -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
     -moz-transition-delay: 0.5s;
-    transition: .4s ease-out;
+    transition: .0s ease-out;
     transition-delay: 0.3s;
     opacity: 1;
     display: block;
